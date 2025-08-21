@@ -1,0 +1,22 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyabrata1122/URL_shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyabrata1122/URL_shortener/issues"
+  },
+  "homepage": "https://github.com/priyabrata1122/URL_shortener#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
