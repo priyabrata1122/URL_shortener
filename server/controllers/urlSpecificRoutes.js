@@ -9,6 +9,7 @@ async function handleGetRequest(req, res) {
         return res.status(400).json({ Message: "URL not found" });
 
     return res.status(200).json({ URL: user.redirectID });
+    // res.redirect(user.redirectID);
 }
 
 async function handlePostRequest(req, res) {
